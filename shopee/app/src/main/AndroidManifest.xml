@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopee1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.shopee1.ChiTietHoaDonActivity"/>
+        <activity android:name="com.example.shopee1.ThucPhamNamActivity" />
+        <activity android:name="com.example.shopee1.ThucPhamNuActivity" />
+        <activity android:name="com.example.shopee1.TrangCaNhanActivity" />
+        <activity android:name="com.example.shopee1.NhanTinActivity" />
+        <activity android:name="com.example.shopee1.LichSuMuaHangActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shopee1.TrangChuActivity" />
+        </activity> <!-- <activity android:name=".LichSuMuaHangActivity"></activity> -->
+        <activity android:name="com.example.shopee1.ChiTietSanPhamActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shopee1.TrangChuActivity" />
+        </activity>
+        <activity android:name="com.example.shopee1.GioHangActivity" />
+        <activity android:name="com.example.shopee1.TrangChuActivity" />
+
+        <activity android:name="com.example.shopee1.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

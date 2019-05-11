@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mauden">#0E0D0D</color>
+    <color name="maudo">#D81B60</color>
+    <color name="xanhlacay">#81EB92</color>
+    <color name="mautrang">#F5F7F5</color>
+</resources>

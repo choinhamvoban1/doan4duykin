@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/trangchu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="trang chủ" />
+        <item
+            android:id="@+id/thucphamnu"
+            android:icon="@drawable/ic_pregnant_woman_black_24dp"
+            android:title="Đốt mỡ , tăng sức tập " />
+        <item
+            android:id="@+id/thucphamnam"
+            android:icon="@drawable/ic_men_black_24dp"
+            android:title="Tăng cơ, tăng cân"/>
+        <item
+            android:id="@+id/giohang"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="giỏ hàng" />
+        <item
+            android:id="@+id/lichsumuahang"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="lịch sử mua hàng" />
+
+        <item
+            android:id="@+id/nhantin"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="nhắn tin tới shop" />
+    </group>
+</menu>

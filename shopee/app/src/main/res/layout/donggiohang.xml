@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageViewsanpham"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+
+        app:srcCompat="@mipmap/blank_avatar" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txttensp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="quần bò unisex "
+            android:textColor="@color/mauden"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtgiasp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="giá:250000"
+            android:textColor="@color/maudo"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <ImageView
+                android:id="@+id/btntru"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_tru" />
+
+            <TextView
+                android:id="@+id/edtsoluong"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1" />
+
+            <ImageView
+                android:id="@+id/btncong"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_them" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="size:L"
+            android:textColor="@color/maudo"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
